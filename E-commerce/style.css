@@ -1,0 +1,183 @@
+body {
+  background: linear-gradient(132deg, #000000,#330ce4, #18181b,#0887fd,#161515,#2a0adf);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 15s ease infinite;
+}
+
+
+@keyframes BackgroundGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+ .hero {
+            background-image: url('https://images.unsplash.com/photo-1674027392887-751d6396b710?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-btn {
+            background-color: white;
+            color: rgba(247, 35, 81, 0.945);
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: transform 0.3s;
+        }
+
+        .hero-btn:hover {
+            transform: scale(1.05);
+        }
+
+         .categories {
+            background: rgba(18, 153, 243, 0.925);
+            padding: 2rem 0;
+            margin-bottom: 3rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width : 50%;
+            margin-left: 25%;
+            border-radius: 20px;
+        }
+
+        .categories h2 {
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .category-card {
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            
+        }
+
+        .category-card:hover {
+            border-color: #ff6b35;
+            box-shadow: 0 4px 12px rgba(255, 107, 53, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .category-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .category-card h3 {
+            color: #333;
+        }
+
+         .products-section {
+            background: rgba(13, 197, 253, 0.925);
+            padding: 2rem 0;
+            margin-bottom: 3rem;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .section-header h2 {
+            font-size: 1.8rem;
+        }
+
+        .filters {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filters select,
+        .filters input {
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+      .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+footer {
+            background-color: #333;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: #ff6b35;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #555;
+            padding-top: 1rem;
+            text-align: center;
+            color: #bbb;
+        }
